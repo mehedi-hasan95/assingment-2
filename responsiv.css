@@ -3,10 +3,22 @@
 -------------------------------------*/
 /* Tab style  */
 
-@media only screen and (min-width: 577px) and (max-width:992px) {
+@media only screen and (min-width: 769px) and (max-width:992px) {
     .container{
         padding: 0 40px;
     }
+
+    .hero {
+        padding: 20px;
+        margin-top: 28px;
+        margin-bottom: 28px;
+        align-items: center;
+    }
+
+    .hero-text {
+        width: 50%;
+    }
+
 	.blog-wrap {
         flex-direction: column;
     }
@@ -17,19 +29,20 @@
 
     .blog-menu {
         background-color: #fff;
+        padding: 10px 5px;
     }
 
     .blog-menu a.btn {
-        padding: 17px 120px;
+        padding: 17px 25px;
         margin-bottom: 0px;
-        row-gap: 30px;
+        row-gap: 10px;
         border-radius: 10px;
         border: 1px solid #E8E8E8;
     }
 
     .blog-menu ul {
         display: flex;
-        column-gap: 55px;
+        column-gap: 10px;
         justify-content: space-between;
     }
     .special-btn {
@@ -41,9 +54,9 @@
             Mobile style 
 ---------------------------------------*/
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 768px) {
     .hero {
-        padding: 110px;
+        padding: 20px;
         margin-top: 28px;
         margin-bottom: 28px;
         flex-direction: column;
@@ -51,7 +64,8 @@
     }
 
     .hero-text {
-        width: auto;
+        max-width: 100%;
+        padding: 0 30px;
         margin-bottom: 30px;
     }
 

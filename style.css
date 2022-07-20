@@ -46,7 +46,7 @@ img {
 }
 
 .container {
-    width: 1321px;
+    max-width: 1320px;
     margin: 0 auto;
 }
 
@@ -65,7 +65,7 @@ img {
 }
 
 .hero-text {
-    width: 531px;
+    max-width: 531px;
 }
 
 .hero-text p {
@@ -214,6 +214,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .footer-menu ul li a {
