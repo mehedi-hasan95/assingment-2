@@ -238,4 +238,31 @@ a.social-share:hover i {
     color: #DD0000;
 }
 
+/*------------------------------------- 
+            Fixture style 
+-------------------------------------*/
+.next-match {
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+    padding: 55px 30px;
+}
 
+.match-info {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.match-info h4 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.flag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flag span {
+    padding: 0 20px;
+}
